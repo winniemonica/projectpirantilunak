@@ -14,6 +14,7 @@ use App\Http\Controllers\ProductMutationController;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
 Route::get('', function() {
     return redirect()->route('product.index');
 });
